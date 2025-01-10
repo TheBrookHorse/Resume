@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Your Name - Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Samantha King</h1>
+    <p>Aspiring Astronomer</p>
+</header>
+
+<div class="container">
+
+    <section class="about">
+        <h2>About Me</h2>
+        <p>
+            I am a motivated physics and computer science student with a passion for aerospace sciences & engineering. Seeking an internship where I can apply my physics, programming, and simulation skills to aerospace technologies.
+        </p>
+    </section>
+
+    <section class="projects">
+        <h2>My Projects</h2>
+        <ul>
+            <li><strong>Some projects here and with links to the other pages, interactibility, etc.</li>
+        </ul>
+    </section>
+
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><strong>University of Texas at Dallas</strong> - Bachelor of Science in Physics (2023 - 2026)</li>
+            <li><strong>University of Texas at Dallas</strong> - Bachelor of Science in Computer Science (2023 - 2026)</li>
+            <li><strong>Dallas College</strong> - Associate's of Science in Computer Science (2018 - 2021)</li>
+        </ul>
+    </section>
+
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Programming- Java, C#, Python, C++, RISC</li>
+            <li>Simulation & Modeling- Unity Engine, GameMaker Studio</li>
+            <li>Software- Git, Github, Trello, Figma, Microsoft 365</li>
+        </ul>
+    </section>
+
+    <section class="contact">
+        <h2>Contact</h2>
+        <ul>
+            <li>Email: samanthajordanking@gmail.com</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/samantha-king-877053185/">linkedin.com/in/yourprofile</a></li>
+        </ul>
+    </section>
+
+</div>
+
+</body>
+</html>
