@@ -1,1 +1,1 @@
-website url: thebrookhorse.github.io/resume
+website url: thebrookhorse.github.io/Resume
