@@ -23,6 +23,14 @@
         <div id="unity-build-title">SpaceSim</div>
       </div>
     </div>
+
+    <!-- Navigation Buttons -->
+    <div id="navigation-buttons">
+      <button onclick="navigateTo('page2.html')">Page 2</button>
+      <button onclick="navigateTo('page3.html')">Page 3</button>
+      <a class="click-me" href="MainPage/index.html">Back to Home</a>
+    </div>
+    
     <script>
       var container = document.querySelector("#unity-container");
       var canvas = document.querySelector("#unity-canvas");
@@ -56,11 +64,11 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/SpaceSimTesterFolder.loader.js";
+      var loaderUrl = buildUrl + "/AASpaceSimTest.loader.js";
       var config = {
-        dataUrl: buildUrl + "/SpaceSimTesterFolder.data",
-        frameworkUrl: buildUrl + "/SpaceSimTesterFolder.framework.js",
-        codeUrl: buildUrl + "/SpaceSimTesterFolder.wasm",
+        dataUrl: buildUrl + "/AASpaceSimTest.data.gz",
+        frameworkUrl: buildUrl + "/AASpaceSimTest.framework.js.gz",
+        codeUrl: buildUrl + "/AASpaceSimTest.wasm.gz",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "SpaceSim",
@@ -102,6 +110,12 @@
         });
       };
       document.body.appendChild(script);
+
+      // Function to navigate to other pages
+      function navigateTo(page) {
+        window.location.href = page;
+      }
+      
     </script>
   </body>
 </html>
